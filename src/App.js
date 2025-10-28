@@ -274,12 +274,7 @@ export default function App() {
                 LinkedIn
               </a>
             </p>
-            <p className="mt-2 text-[#0F172A]/90">
-  Phone:{" "}
-  <a href="tel:+919015312582" className="underline">
-    +91 90153 12582
-  </a>
-</p>
+          
 
           </section>
         </div>
