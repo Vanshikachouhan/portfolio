@@ -132,12 +132,13 @@ export default function App() {
             <div className="flex items-center gap-4">
               {/* Resume button (desktop) */}
               <a
-                href="/vanshika chouhan_124554.pdf"
-                download
-                className="hidden sm:inline-block px-3 py-1 rounded-md border border-white/30 text-sm"
-              >
-                Resume
-              </a>
+  href={process.env.PUBLIC_URL + "/vanshika-chouhan124554.pdf"}
+  download
+  className="hidden sm:inline-block px-3 py-1 rounded-md border border-white/30 text-sm"
+>
+  Resume
+</a>
+
 
             
 
@@ -198,15 +199,15 @@ export default function App() {
               </a>
             ))}
 
-            {/* also show resume link inside drawer */}
             <a
-              href="/resume.pdf"
-              download
-              onClick={closeDrawer}
-              className="mt-3 inline-block px-3 py-2 rounded-md border border-white/40 text-center"
-            >
-              Download Resume
-            </a>
+  href={process.env.PUBLIC_URL + "/vanshika-chouhan124554.pdf"}
+  download
+  onClick={closeDrawer}
+  className="mt-3 inline-block px-3 py-2 rounded-md border border-white/40 text-center"
+>
+  Download Resume
+</a>
+
           </div>
         </div>
       </div>
@@ -250,13 +251,14 @@ export default function App() {
           {/* Resume */}
           <section id="resume" className="rounded-lg p-8 text-center">
             <h2 className="text-2xl font-semibold mb-4 text-[#0F172A]">Resume</h2>
-               <a
-  href="/portfolio/vanshika-chouhan124554.pdf"
+          <a
+  href={process.env.PUBLIC_URL + "/vanshika-chouhan124554.pdf"}
   download
   className="inline-block px-6 py-3 rounded-2xl shadow bg-[#0F172A] text-white"
 >
   Download Resume
 </a>
+
 
 
           </section>
