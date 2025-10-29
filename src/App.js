@@ -250,13 +250,14 @@ export default function App() {
           {/* Resume */}
           <section id="resume" className="rounded-lg p-8 text-center">
             <h2 className="text-2xl font-semibold mb-4 text-[#0F172A]">Resume</h2>
-                <a
-        href="https://vanshikachouhan.github.io/portfolio/vanshika-chouhan124554.pdf"
-        download
-        className="inline-block px-6 py-3 rounded-2xl shadow bg-[#0F172A] text-white"
-      >
-        Download Resume
-      </a>
+               <a
+  href="/portfolio/vanshika-chouhan124554.pdf"
+  download
+  className="inline-block px-6 py-3 rounded-2xl shadow bg-[#0F172A] text-white"
+>
+  Download Resume
+</a>
+
 
           </section>
 
